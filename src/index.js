@@ -4,9 +4,6 @@ import ReactDOM from "react-dom";
 import "./static/css/styles.css";
 
 import Table from "./components/Table";
-function App() {
-  return <Table />;
-}
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Table />, rootElement);
